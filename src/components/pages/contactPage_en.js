@@ -4,17 +4,16 @@ function Contactpage_en() {
   return (
     <header>
     <div className="headerbar">
-    {/*eslint-disable-next-line*/}
     <img className="icon" src="/images/pharm.png" />
     <div class ="tag">
     Park Pacific Pharmacy
     </div>
     <div class="containernav">
     <div class="topnav">
-    <a href="/web/">Home</a>
-    <a href="/web/Contact/en" className="active">Contact</a>
-    <a href="/web/About/en">About</a>
-    <a href="/web/Contact/ch">繁體</a>
+    <a href="https://nico628.github.io/web/">Home</a>
+    <a href="https://nico628.github.io/web/Contact/en" className="active">Contact</a>
+    <a href="https://nico628.github.io/web/About/en">About</a>
+    <a href="https://nico628.github.io/web/Contact/ch">繁體</a>
     </div>
     </div>
     </div>

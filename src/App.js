@@ -22,13 +22,13 @@ function App() {
     <div className="App">
 
 
-    <Route exact path='/web/' component={Homepage_en} />
-    <Route exact path='/web/Contact/en' component={Contactpage_en} />
-    <Route exact path='/web/About/en' component={Aboutpage_en} />
+    <Route exact path='https://nico628.github.io/web/' component={Homepage_en} />
+    <Route exact path='https://nico628.github.io/web/Contact/en' component={Contactpage_en} />
+    <Route exact path='https://nico628.github.io/web/About/en' component={Aboutpage_en} />
 
-    <Route exact path='/web/ch' component={Homepage_ch} />
-    <Route exact path='/web/Contact/ch' component={Contactpage_ch} />
-    <Route exact path='/web/About/ch' component={Aboutpage_ch} />
+    <Route exact path='https://nico628.github.io/web/ch' component={Homepage_ch} />
+    <Route exact path='https://nico628.github.io/web/Contact/ch' component={Contactpage_ch} />
+    <Route exact path='https://nico628.github.io/web/About/ch' component={Aboutpage_ch} />
 
     </div>
     </Router>
