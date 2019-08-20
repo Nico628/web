@@ -4,16 +4,17 @@ function Contactpage_ch() {
   return (
     <header>
     <div className="headerbar">
+    {/*eslint-disable-next-line*/}
     <img className="icon" src="/images/pharm.png" />
     <div class ="tag">
     保康西藥房
     </div>
     <div class="containernav">
     <div class="topnav">
-    <a href="/ch">首頁</a>
-    <a href="/Contact/ch" className="active">聯絡</a>
-    <a href="/About/ch">關於</a>
-    <a href="/Contact/en">English</a>
+    <a href="/web/ch">首頁</a>
+    <a href="/web/Contact/ch" className="active">聯絡</a>
+    <a href="/web/About/ch">關於</a>
+    <a href="/web/Contact/en">English</a>
     </div>
     </div>
     </div>

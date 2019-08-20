@@ -4,20 +4,22 @@ function Aboutpage_ch() {
   return (
     <header>
     <div className="headerbar">
+  {/*eslint-disable-next-line*/}
     <img className="icon" src="/images/pharm.png" />
     <div class ="tag">
     保康西藥房
     </div>
     <div class="containernav">
     <div class="topnav">
-    <a href="/ch">首頁</a>
-    <a href="/Contact/ch">聯絡</a>
-    <a href="/About/ch" className="active">關於</a>
-    <a href="/About/en">English</a>
+    <a href="/web/ch">首頁</a>
+    <a href="/web/Contact/ch">聯絡</a>
+    <a href="/web/About/ch" className="active">關於</a>
+    <a href="/web/About/en">English</a>
     </div>
     </div>
     </div>
     <div className="aboutPage">
+    {/*eslint-disable-next-line*/}
     <center><img className="map" src="/images/map.png" /></center>
     </div>
     <div className="words">

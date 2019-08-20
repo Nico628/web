@@ -4,16 +4,17 @@ function Homepage_en() {
   return (
     <header>
     <div className="headerbar">
+    {/*eslint-disable-next-line*/}
     <img className="icon" src="/images/pharm.png" />
     <div class ="tag">
     Park Pacific Pharmacy
     </div>
     <div class="containernav">
     <div class="topnav">
-    <a href="/" className="active">Home</a>
-    <a href="/Contact/en">Contact</a>
-    <a href="/About/en">About</a>
-    <a href="/ch">繁體</a>
+    <a href="/web/" className="active">Home</a>
+    <a href="/web/Contact/en">Contact</a>
+    <a href="/web/About/en">About</a>
+    <a href="/web/ch">繁體</a>
     </div>
     </div>
     </div>

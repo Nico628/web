@@ -4,21 +4,23 @@ function Aboutpage_en() {
   return (
     <header>
     <div className="headerbar">
+    {/*eslint-disable-next-line*/}
     <img className="icon" src="/images/pharm.png" />
     <div class ="tag">
     Park Pacific Pharmacy
     </div>
     <div class="containernav">
     <div class="topnav">
-    <a href="/">Home</a>
-    <a href="/Contact/en">Contact</a>
-    <a href="/About/en" className="active">About</a>
-    <a href="/About/ch">繁體</a>
+    <a href="/web/">Home</a>
+    <a href="/web/Contact/en">Contact</a>
+    <a href="/web/About/en" className="active">About</a>
+    <a href="/web/About/ch">繁體</a>
     </div>
     </div>
     </div>
 
     <div className="aboutPage">
+    {/*eslint-disable-next-line*/}
     <center><img className="map" src="/images/map.png" /></center>
     </div>
     <div className="words">
