@@ -10,10 +10,10 @@ function Homepage_en() {
     </div>
     <div class="containernav">
     <div class="topnav">
-    <a href="https://nico628.github.io/web/" className="active">Home</a>
-    <a href="https://nico628.github.io/web/Contact/en">Contact</a>
-    <a href="https://nico628.github.io/web/About/en">About</a>
-    <a href="https://nico628.github.io/web/ch">繁體</a>
+    <a href="/web/" className="active">Home</a>
+    <a href="/web/Contact/en">Contact</a>
+    <a href="/web/About/en">About</a>
+    <a href="/web/ch">繁體</a>
     </div>
     </div>
     </div>

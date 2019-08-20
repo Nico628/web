@@ -10,10 +10,10 @@ function Aboutpage_ch() {
     </div>
     <div class="containernav">
     <div class="topnav">
-    <a href="https://nico628.github.io/web/ch">首頁</a>
-    <a href="https://nico628.github.io/web/Contact/ch">聯絡</a>
-    <a href="https://nico628.github.io/web/About/ch" className="active">關於</a>
-    <a href="https://nico628.github.io/web/About/en">English</a>
+    <a href="/web/ch">首頁</a>
+    <a href="/web/Contact/ch">聯絡</a>
+    <a href="/web/About/ch" className="active">關於</a>
+    <a href="/web/About/en">English</a>
     </div>
     </div>
     </div>
