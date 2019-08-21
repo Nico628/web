@@ -4,7 +4,7 @@ function Aboutpage_ch() {
   return (
     <header>
     <div className="headerbar">
-    <img className="icon" src="/images/pharm.png" />
+    <img className="icon" src="/web/images/pharm.png" />
     <div class ="tag">
     保康西藥房
     </div>
@@ -18,7 +18,7 @@ function Aboutpage_ch() {
     </div>
     </div>
     <div className="aboutPage">
-    <center><img className="map" src="/images/map.png" /></center>
+    <center><img className="map" src="/web/images/map.png" /></center>
     </div>
     <div className="words">
 

@@ -4,7 +4,7 @@ function Aboutpage_en() {
   return (
     <header>
     <div className="headerbar">
-    <img className="icon" src="/images/pharm.png" />
+    <img className="icon" src="/web/images/pharm.png" />
     <div class ="tag">
     Park Pacific Pharmacy
     </div>
@@ -19,7 +19,7 @@ function Aboutpage_en() {
     </div>
 
     <div className="aboutPage">
-    <center><img className="map" src="/images/map.png" /></center>
+    <center><img className="map" src="/web/images/map.png" /></center>
     </div>
     <div className="words">
 

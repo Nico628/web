@@ -4,7 +4,7 @@ function Homepage_en() {
   return (
     <header>
     <div className="headerbar">
-    <img className="icon" src="/images/pharm.png" />
+    <img className="icon" src="/web/images/pharm.png" />
     <div class ="tag">
     Park Pacific Pharmacy
     </div>
