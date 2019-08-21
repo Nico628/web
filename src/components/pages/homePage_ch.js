@@ -24,9 +24,6 @@ function Homepage_ch() {
       <div className="slide1"></div>
       <div className="slide2"></div>
       <div className="slide3"></div>
-      <div className="slide4"></div>
-      <div className="slide5"></div>
-      <div className="slide6"></div>
     </div>
     </div>
     <div className="homePage">
