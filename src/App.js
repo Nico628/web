@@ -19,11 +19,11 @@ import Aboutpage_ch from './components/pages/aboutPage_ch';
 function App() {
   return (
 
-    <Switch>
+    <Router>
     <div className="App">
 
 
-    <Route basename='/web/' component={Homepage_en} />
+    <Route exact path='/web/' component={Homepage_en} />
     <Route exact path='/web/Contact/en' component={Contactpage_en} />
     <Route exact path='/web/About/en' component={Aboutpage_en} />
 
@@ -32,7 +32,7 @@ function App() {
     <Route exact path='/web/About/ch' component={Aboutpage_ch} />
 
     </div>
-    </Switch>
+    </Router>
   );
 }
 
