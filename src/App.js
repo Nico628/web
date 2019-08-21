@@ -2,7 +2,6 @@ import React from 'react';
 import {
   HashRouter as Router,
   Route,
-  // eslint-disable-next-line
   Link
 } from 'react-router-dom';
 
@@ -23,12 +22,12 @@ function App() {
 
 
     <Route exact path='/web/' component={Homepage_en} />
-    <Route exact path='/web/Contact/en' component={Contactpage_en} />
-    <Route exact path='/web/About/en' component={Aboutpage_en} />
+    <Route path='/web/Contact/en' component={Contactpage_en} />
+    <Route path='/web/About/en' component={Aboutpage_en} />
 
-    <Route exact path='/web/ch' component={Homepage_ch} />
-    <Route exact path='/web/Contact/ch' component={Contactpage_ch} />
-    <Route exact path='/web/About/ch' component={Aboutpage_ch} />
+    <Route path='/web/ch' component={Homepage_ch} />
+    <Route path='/web/Contact/ch' component={Contactpage_ch} />
+    <Route path='/web/About/ch' component={Aboutpage_ch} />
 
     </div>
     </Router>
