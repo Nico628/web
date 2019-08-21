@@ -1,4 +1,5 @@
 import React from 'react';
+import {Link} from 'react-router-dom';
 
 function Aboutpage_en() {
   return (
@@ -10,10 +11,10 @@ function Aboutpage_en() {
     </div>
     <div class="containernav">
     <div class="topnav">
-    <a href="/web/">Home</a>
-    <a href="/web/Contact/en">Contact</a>
-    <a href="/web/About/en" className="active">About</a>
-    <a href="/web/About/ch">繁體</a>
+    <Link to="/web/">Home</Link>
+    <Link to="/web/Contact/en">Contact</Link>
+    <Link to="/web/About/en" className="active">About</Link>
+    <Link to="/web/About/ch">繁體</Link>
     </div>
     </div>
     </div>

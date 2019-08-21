@@ -11,10 +11,10 @@ function Homepage_en() {
     </div>
     <div class="containernav">
     <div class="topnav">
-    <a href="/web/" className="active">Home</a>
+    <Link to="/web/" className="active">Home</Link>
     <Link to="/web/Contact/en">Contact</Link>
-    <a href="/web/About/en">About</a>
-    <a href="/web/ch">繁體</a>
+    <Link to="/web/About/en">About</Link>
+    <Link to="/web/ch">繁體</Link>
     </div>
     </div>
     </div>
