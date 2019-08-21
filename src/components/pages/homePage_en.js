@@ -21,7 +21,7 @@ function Homepage_en() {
 
     <div className="sliderC">
     <div className="slider">
-      <div className="slide1"></div>
+      <div className="slide1" style ={ { backgroundImage: "url('/web/images/p4.jpg')" } }></div>
       <div className="slide2"></div>
       <div className="slide3"></div>
     </div>
