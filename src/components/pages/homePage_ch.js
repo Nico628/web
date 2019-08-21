@@ -21,9 +21,9 @@ function Homepage_ch() {
 
     <div className="sliderC">
     <div className="slider">
-      <div className="slide1"></div>
-      <div className="slide2"></div>
-      <div className="slide3"></div>
+      <div className="slide1" style ={ { backgroundImage: "url('/web/images/p3.jpg')" } }></div>
+      <div className="slide2" style ={ { backgroundImage: "url('/web/images/p4.jpg')" } }></div>
+      <div className="slide3" style ={ { backgroundImage: "url('/web/images/p5.jpg')" } }></div>
     </div>
     </div>
     <div className="homePage">
