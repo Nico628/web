@@ -2,6 +2,7 @@ import React from 'react';
 import {
   BrowserRouter as Router,
   Route,
+  Switch,
   // eslint-disable-next-line
   Link
 } from 'react-router-dom';
@@ -18,7 +19,7 @@ import Aboutpage_ch from './components/pages/aboutPage_ch';
 function App() {
   return (
 
-    <Router>
+    <Switch>
     <div className="App">
 
 
@@ -31,7 +32,7 @@ function App() {
     <Route exact path='/web/About/ch' component={Aboutpage_ch} />
 
     </div>
-    </Router>
+    </Switch>
   );
 }
 
