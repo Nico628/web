@@ -16,11 +16,9 @@ header {
     margin-bottom: 30px;
     width: 450px;
     height: 400px;
-    background-color: grey;
+    background-color: $black;
     margin-top: 30px;
     position: inherit;
-    -moz-transform:scale(0.8);
-    -moz-transform-origin: 0 0;
   }
 
   .icon {
@@ -82,6 +80,9 @@ header {
   @media screen and (max-width: 900px) {
   .tag {display: none;}
   .icon {display: none;}
+  .containernav {left: 10px; right: auto;}
+  .map {-moz-transform:scale(0.8);
+        -moz-transform-origin: 0 0;}
 }
 
 }
