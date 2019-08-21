@@ -1,4 +1,5 @@
 import React from 'react';
+import ScrollToTop from 'react-router-scroll-top'
 import {
   BrowserRouter as Router,
   Route,
@@ -20,6 +21,7 @@ function App() {
   return (
 
     <Router>
+    <ScrollToTop>
     <div className="App">
 
 
@@ -32,6 +34,7 @@ function App() {
     <Route exact path='/web/About/ch' component={Aboutpage_ch} />
 
     </div>
+    </ScrollToTop>
     </Router>
   );
 }
