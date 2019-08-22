@@ -14,11 +14,12 @@ header {
     margin-left: auto;
     margin-right: auto;
     margin-bottom: 30px;
-    width: 450px;
+    width: 100%;
     height: 400px;
     background-color: $black;
     margin-top: 30px;
     position: inherit;
+    background-size: contain;
   }
 
   .icon {
@@ -81,7 +82,6 @@ header {
   .tag {display: none;}
   .icon {display: none;}
   .containernav {left: 10px; right: auto;}
-  .map {background-size: contain;}
 }
 
 }
