@@ -81,8 +81,7 @@ header {
   .tag {display: none;}
   .icon {display: none;}
   .containernav {left: 10px; right: auto;}
-  .map {-moz-transform:scale(0.8);
-        -moz-transform-origin: 0 0;}
+  .map {background-size: contain;}
 }
 
 }
