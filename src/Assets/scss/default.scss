@@ -19,7 +19,6 @@ header {
     background-color: $black;
     margin-top: 30px;
     position: inherit;
-    background-size: contain;
   }
 
   .icon {
@@ -82,6 +81,11 @@ header {
   .tag {display: none;}
   .icon {display: none;}
   .containernav {left: 10px; right: auto;}
+  .map {background-size: contain;
+    zoom:0.7;
+    -moz-transform:scale(0.7);
+    -moz-transform-origin: 0 0;
+  }
 }
 
 }
