@@ -80,7 +80,7 @@ header {
   @media screen and (max-width: 900px) {
   .tag {display: none;}
   .icon {display: none;}
-  .containernav {left: 10px; right: auto;}
+  .containernav {left: auto;; right: auto; text-align: center;}
   .map {background-size: contain;
     zoom:0.7;
     -moz-transform:scale(0.7);
